@@ -1,0 +1,53 @@
+body {
+    background-color: #000;
+    text-align: center;
+    background-image: url("https://image.shutterstock.com/image-photo/digital-stop-watch-count-time-260nw-1064754305.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    background-attachment: fixed;
+}
+
+.num>h1 {
+    color: #000;
+    display: inline-block;
+    width: 300px;
+    background-color: #fff;
+    font-size: 80px;
+    font-weight: 800;
+    margin: 50px 20px 20px 20px !important;
+    border-radius: 40px;
+}
+
+.heading {
+    font-size: 90px;
+    background-color: rgba(145, 143, 143, 0.479);
+    color: #fff;
+    margin: 50px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    font-family: initial;
+    cursor: pointer;
+    box-shadow: 4px 0px 4px 4px rgb(231, 231, 231) !important;
+    font-weight: 700 !important;
+}
+
+button {
+    font-size: 30px !important;
+    margin: 80px 20px 20px 20px;
+    padding: 10px 50px 10px 50px !important;
+    background-color: white !important;
+    color: blue !important;
+    border: 5px solid black !important; 
+    border-radius: 20px !important;
+    font-weight: bold !important;
+}
+button:hover{
+    background-color: cadetblue !important;
+    outline: none;
+    border: none;
+    transition: ease-in 0.3s;
+}
+button:disabled{
+    background-color: azure !important;
+    color: #000 !important;
+}
